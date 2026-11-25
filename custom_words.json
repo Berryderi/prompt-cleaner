@@ -1,0 +1,19 @@
+{
+  "replacements": [
+    {"from": ["why see you", "why see"], "to": "YC"},
+    {"from": ["cloud code"], "to": "Claude Code"},
+    {
+      "from": ["cloud"],
+      "to": "Claude",
+      "except_phrases": ["Google Cloud", "Ollama Cloud", "cloud API", "API cloud", "the cloud", "cloud run", "cloud storage", "cloud computing"]
+    },
+    {"from": ["clod"], "to": "Claude"},
+    {"from": ["kithub", "scithub", "github"], "to": "GitHub"},
+    {"from": ["revo"], "to": "repo"},
+    {"from": ["card reels"], "to": "guardrails"},
+    {"from": ["super base"], "to": "Supabase"},
+    {"from": ["tail scale"], "to": "Tailscale"},
+    {"from": ["SWAT analysis"], "to": "SWOT analysis"},
+    {"from": ["macbook"], "to": "MacBook"}
+  ]
+}

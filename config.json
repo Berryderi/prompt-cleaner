@@ -1,0 +1,14 @@
+{
+  "hotkey": "ctrl+shift+space",
+  "model": "qwen3:8b",
+  "ollama_url": "http://127.0.0.1:11434",
+  "timeout_s": 6.0,
+  "warmup_timeout_s": 90.0,
+  "keep_alive": "30m",
+  "ps_timeout_s": 1.0,
+  "evict_other_models": false,
+  "terminal_processes": [
+    "windowsterminal.exe", "openconsole.exe", "conhost.exe", "cmd.exe",
+    "powershell.exe", "pwsh.exe", "wezterm-gui.exe", "alacritty.exe", "mintty.exe"
+  ]
+}

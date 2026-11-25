@@ -1,0 +1,15 @@
+# logs and caches
+logs/
+__pycache__/
+*.pyc
+
+# your own dictation test set (keep it private)
+tests/samples.jsonl
+
+# env files and local config
+.env
+.env.*
+*.local.json
+.claude/
+.vscode/
+.idea/
